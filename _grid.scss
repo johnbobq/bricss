@@ -21,22 +21,19 @@
 
 /* 6er */
 .g--1-6 {
-	width: calc(100% / 3 - #{$gridSpace});
+	width: calc(100% / 6 - #{$gridSpace});
 }
 .g--2-6 {
-	width: calc(100% / 3 * 2 - #{$gridSpace});
+	width: calc(100% / 6 * 2 - #{$gridSpace});
 }
-.g--1-6 {
-	width: calc(100% / 3 - #{$gridSpace});
+.g--3-6 {
+	width: calc(100% / 6  * 3 - #{$gridSpace});
 }
-.g--2-6 {
-	width: calc(100% / 3 * 2 - #{$gridSpace});
+.g--4-6 {
+	width: calc(100% / 6 * 4 - #{$gridSpace});
 }
-.g--1-6 {
-	width: calc(100% / 3 - #{$gridSpace});
-}
-.g--2-6 {
-	width: calc(100% / 3 * 2 - #{$gridSpace});
+.g--5-6 {
+	width: calc(100% / 6 * 5 - #{$gridSpace});
 }
 .g--6-6 {
 	width: calc(100% - #{$gridSpace});
