@@ -1,0 +1,79 @@
+/* NOT WORKING YET
+*[class^="flex--"]  {
+	margin: 0px 10px;
+	float: left;
+}
+*/
+.flex {
+	display: flex;
+}
+
+/* flex box to change order of child divs
+	directions:
+	rtl	= right to left
+	ltr = left to right
+	btt = bottom to top
+	ttb = top to bottom
+*/
+.flex--dir-rtl {
+	flex-direction: row-reverse;
+}
+.flex--dir-ltr {
+	flex-direction: row;
+}
+.flex--dir-btt {
+	flex-direction: column-reverse;
+}
+.flex--dir-ttb {
+	flex-direction: column;
+}
+
+/* 
+	flex box to arrange child divs horizontically
+*/
+.flex--jus-start {
+	justify-content: flex-start;
+}
+.flex--jus-end {
+	justify-content: flex-end;
+}
+.flex--jus-between {
+	justify-content: space-between;
+}
+.flex--jus-around {
+	justify-content: space-around;
+}
+.flex--jus-center {
+	justify-content: center;
+}
+
+/* 
+	flex box to arrange child divs vertically
+*/
+.flex--ali-start {
+	align-items: flex-start;
+}
+.flex--ali-end {
+	align-items: flex-end;
+}
+.flex--ali-center {
+	align-items: center;
+}
+.flex--ali-stretch {
+	align-items: stretch;
+}
+.flex--ali-baseline {
+	align-items: baseline;
+}
+
+/*
+	flex shorthands
+*/
+.flex--center {
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+

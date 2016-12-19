@@ -1,0 +1,43 @@
+*[class^="g--"]  {
+	margin-left: ($gridSpace / 2);
+	margin-right: ($gridSpace / 2);
+	float: left;
+}
+
+/* 4er */
+.g--1-4 {
+	width: calc(100% / 4 - #{$gridSpace});
+}
+.g--2-4 {
+	width: calc(100% / 4 * 2 - #{$gridSpace});
+}
+
+.g--3-4 {
+	width: calc(100% / 4 * 3 - #{$gridSpace});
+}
+.g--4-4 {
+	width: calc(100% - #{$gridSpace});
+}
+
+/* 6er */
+.g--1-6 {
+	width: calc(100% / 3 - #{$gridSpace});
+}
+.g--2-6 {
+	width: calc(100% / 3 * 2 - #{$gridSpace});
+}
+.g--1-6 {
+	width: calc(100% / 3 - #{$gridSpace});
+}
+.g--2-6 {
+	width: calc(100% / 3 * 2 - #{$gridSpace});
+}
+.g--1-6 {
+	width: calc(100% / 3 - #{$gridSpace});
+}
+.g--2-6 {
+	width: calc(100% / 3 * 2 - #{$gridSpace});
+}
+.g--6-6 {
+	width: calc(100% - #{$gridSpace});
+}
