@@ -48,6 +48,67 @@ table {
 
 /* Basic rules */
 
+* {
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  color: $cl-font;
+  font-family: $fontSet;
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: $wrapper;
+  margin: 0px auto;
+}
+.wrapper::after {
+  content: '';
+  clear: both;
+  height: 0px;
+  width: 0px;
+  display: block;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: $fs-xxxlarge;
+  font-weight: $fw-normal;
+}
+
+h2 {
+  font-size: $fs-xxlarge;
+  font-weight: $fw-normal;
+}
+
+h3, .subline {
+  font-size: $fs-xlarge;
+  font-weight: $fw-normal;
+}
+
+p {
+  font-size: $fs-medium;
+  line-height: 140%;
+  font-weight: 300;
+}
+
+a {
+  color: $cl-primary;
+}
+
+b {
+  font-weight: bold;
+}
+
+i {
+  font-style: italic;
+}
+
 /* Common Fixes */
 /* =Clearfix (all browsers)
 --------------------------------*/
