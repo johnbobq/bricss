@@ -55,11 +55,10 @@ $fontsizes: (
 				mxlarge: 	$fs-mxlarge
 );
 
-//SET STANDARD FONT SET
-$fontSet: 'Ubuntu', Helvetica, sans-serif;
-
-
 //SET BASIC FONT WEIGHTS
 $fw-light: 	300;
 $fw-normal: 400;
 $fw-bold: 	600;
+
+//SET STANDARD FONT SET
+$fontSet: 'Ubuntu', Helvetica, sans-serif;
