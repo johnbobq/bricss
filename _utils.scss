@@ -1,0 +1,98 @@
+/*
+  _bricss SASS Framework
+  _Utils
+  Helper claaes for margin, padding, space, algin etc.
+ */
+
+//SPACER
+@while $spacerMax > 0 {
+  .spacer--#{$spacerMax} {
+    padding-top: $spacerMax + px;
+  }
+  .p--#{$spacerMax} {
+    padding: $spacerMax + px;
+  }
+  .pt--#{$spacerMax} {
+    padding-top: $spacerMax + px;
+  }
+  .pr--#{$spacerMax} {
+    padding-right: $spacerMax + px;
+  }
+  .pb--#{$spacerMax} {
+    padding-bottom: $spacerMax + px;
+  }
+  .pl--#{$spacerMax} {
+    padding-left: $spacerMax + px;
+  }
+  .ptb--#{$spacerMax} {
+    padding-top: $spacerMax + px;
+    padding-bottom: $spacerMax + px;
+  }
+  .m--#{$spacerMax} {
+    margin: $spacerMax + px;
+  }
+  .mt--#{$spacerMax} {
+    margin-top: $spacerMax + px;
+  }
+  .mr--#{$spacerMax} {
+    margin-right: $spacerMax + px;
+  }
+  .mb--#{$spacerMax} {
+    margin-bottom: $spacerMax + px;
+  }
+  .ml--#{$spacerMax} {
+    margin-left: $spacerMax + px;
+  }
+  .mtb--#{$spacerMax} {
+    margin-top: $spacerMax + px;
+    margin-bottom: $spacerMax + px;
+  }
+  $spacerMax: $spacerMax - $spacerSteps;
+}
+
+.w--100 {
+  width: 100%;
+}
+
+.ta--center {
+  text-align: center;
+}
+.ta--justify {
+  text-align: justify;
+}
+.ta--left {
+  text-align: left;
+}
+.ta--right {
+  text-align: right;
+}
+
+//TODO also use an array to loop through
+.fw--light {
+  font-weight: $fw-light;
+}
+.fw--normal {
+  font-weight: $fw-normal;
+}
+.fw--bold {
+  font-weight: $fw-bold;
+}
+
+.h--100p {
+  height: 100%;
+}
+
+.fl--left {
+  float: left;
+}
+.fl--right {
+  float: right;
+}
+
+.c--pointer {
+  cursor: pointer;
+}
+
+.no-wrap {
+  white-space: nowrap;
+}

@@ -1,0 +1,125 @@
+/*  bricss _Core.scss
+    includes reset, basics rules and common fixes
+*/
+
+/* RESETS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Basic rules */
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  color: $cl-font;
+  font-family: $fontSet;
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: $wrapper;
+  margin: 0px auto;
+}
+.wrapper::after {
+  content: '';
+  clear: both;
+  height: 0px;
+  width: 0px;
+  display: block;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: $fs-xxxlarge;
+  font-weight: $fw-normal;
+}
+
+h2 {
+  font-size: $fs-xxlarge;
+  font-weight: $fw-normal;
+}
+
+h3, .subline {
+  font-size: $fs-xlarge;
+  font-weight: $fw-normal;
+}
+
+p {
+  font-size: $fs-medium;
+  line-height: 140%;
+  font-weight: 300;
+}
+
+a {
+  color: $cl-primary;
+}
+
+b {
+  font-weight: bold;
+}
+
+i {
+  font-style: italic;
+}
+
+/* Common Fixes */
+/* =Clearfix (all browsers)
+--------------------------------*/
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* IE6 */
+* html .clearfix {height: 1%;}
+/* IE7 */
+*:first-child+html .clearfix {min-height: 1px;}
