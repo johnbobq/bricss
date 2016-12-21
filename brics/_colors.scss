@@ -21,12 +21,12 @@
   }
 
   //background color alpha Low
-  .bg--#{$colors}-alpha-6 {
-    box-shadow: inset 0 0 0 1000px rgba($color, .6);
+  .bg--#{$colors}-alpha-5 {
+    box-shadow: inset 0 0 0 1000px rgba($color, .5);
   }
 
-  .bg--#{$colors}-alpha-8 {
-    box-shadow: inset 0 0 0 1000px rgba($color, .8);
+  .bg--#{$colors}-alpha-7 {
+    box-shadow: inset 0 0 0 1000px rgba($color, .7);
   }
 
   .bg--#{$colors}-alpha-9 {
@@ -37,6 +37,8 @@
   .bc--#{$colors} {
     border-color: $color;
   }
+
+
 
   //font-color !TO DO: do we need all colors also as Font Colors?
   .fc--#{$colors} {
@@ -54,9 +56,5 @@
     }
   }
 
-}
-
-.fc--cl-bright {
-  color: $cl-bright;
 }
 

@@ -4,7 +4,7 @@
   Helper claaes for margin, padding, space, algin etc.
  */
 
-//SPACER
+//SPACER Paddings & Margins
 @while $spacerMax > 0 {
   .spacer--#{$spacerMax} {
     padding-top: $spacerMax + px;
@@ -54,6 +54,8 @@
   width: 100%;
 }
 
+
+//Text align short cut ta
 .ta--center {
   text-align: center;
 }
@@ -96,3 +98,5 @@
 .no-wrap {
   white-space: nowrap;
 }
+
+//TODO line Height
