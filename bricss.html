@@ -9,9 +9,19 @@
 
 <div class="wrapper">
     <section id="sec--welcome">
+        <div class="g--2-6">
+            &nbsp;
+        </div>
+        <div class="g--2-6">
+            <img src="logo.svg" alt="bricss Logo" />
+        </div>
+        <div class="g--2-6">
+            &nbsp;
+        </div>
         <div class="g--4-4 mtb--50">
-            <h1>bricss - the modular SASS micro Framework</h1>
-            <p>
+            <h1 class="fc--cl-primary">bricss</h1>
+            <h2>the modular SASS micro Framework</h2>
+            <p class="mt--10git ">
                 bricss is a modular SASS micro Framework for websites and webapplications. It provides a fast and clean starting point for webprojects. It's not a UI Framework, it's the perfect base layer for better performance higher productivity and highly scalable projects. Essentially resets all default Browser Styles and fixe common css issues, it includes a responsive Grid based on percent calculation, basics modular classes for fonts, colors and UI-Forms. Also it contains many help classes that makes frontend Development feels like a fun joy ride. On the top there ist the template brics (Modul? or bric?), where all variables for the grid, color and fonts get
                 <br><br>
                 And if that is not enough, you can add Template Bricks to get a complete Design for your Project.
@@ -47,6 +57,15 @@
         <div class="g--1-4 bg--cl-second mb--10 p--10">
             <p>Grid--1-4</p>
         </div>
+
+        <div class="g--3-4 bg--cl-second mb--10 p--10">
+            <p>Grid--3-4</p>
+        </div>
+        <div class="g--1-4 bg--cl-second mb--10 p--10">
+            <p>Grid--1-4</p>
+        </div>
+
+
         <div class="g--4-4 bg--cl-second mb--10 p--10">
             <p>Grid--4-4</p>
         </div>
@@ -70,6 +89,13 @@
         <div class="g--2-6 bg--cl-second mb--10 p--10">
             <p>Grid--2-6</p>
         </div>
+        <div class="g--5-6 bg--cl-second mb--10 p--10">
+            <p>Grid--5-6</p>
+        </div>
+        <div class="g--1-6 bg--cl-second mb--10 p--10">
+            <p>Grid--1-6</p>
+        </div>
+
         <div class="g--6-6 bg--cl-second mb--10 p--10">
             <p>Grid--6-6</p>
         </div>
@@ -82,27 +108,39 @@
 
             <p>
                 All Colors Variables can easily change in the _Template bric. Also new Colors can be added there, you don`t have to add new Classes for it.
-                The _Colors bric will do that for you!
+                The _Colors bric will do that for you! <br>
+                Also every color get` automatic 20% litghter hover class.
             </p>
-            <h3 class="mt--20">Background Colors</h3>
+            <h3 class="mt--20 mb--10">Background Colors</h3>
+            <p>
+                Backgroundcolor:<br>
+                Background--Color-name <br>
+                bg--cl-primary<br><br>
+
+                :hover class<br>
+                bg--cl-primary-hover<br>
+
+            </p>
         </div>
 
-        <div class="g--1-6 mb--10 bg--cl-primary p--10">
-            <p>Primary</p>
+
+
+        <div class="g--1-6 mb--10 bg--cl-primary bg--cl-primary-hover p--10">
+            <p>bg--cl--primary</p>
         </div>
-        <div class="g--1-6 mb--10 bg--cl-second p--10">
+        <div class="g--1-6 mb--10 bg--cl-second bg--cl-second-hover p--10">
             <p>Second</p>
         </div>
-        <div class="g--1-6 mb--10 bg--cl-alert p--10">
+        <div class="g--1-6 mb--10 bg--cl-alert bg--cl-alert-hover p--10">
             <p>Alert</p>
         </div>
-        <div class="g--1-6 mb--10 bg--cl-succes p--10">
+        <div class="g--1-6 mb--10 bg--cl-succes bg--cl-succes-hover p--10">
             <p>Succes</p>
         </div>
-        <div class="g--1-6 mb--10 bg--cl-warning p--10">
+        <div class="g--1-6 mb--10 bg--cl-warning bg--cl-warning-hover p--10">
             <p>Warning</p>
         </div>
-        <div class="g--1-6 mb--10 bg--cl-dark p--10">
+        <div class="g--1-6 mb--10 bg--cl-dark mb--10 bg--cl-dark-hover p--10">
             <p class="fc--cl-bright">Dark</p>
         </div>
 
@@ -167,7 +205,81 @@
 
 
     </section>
+
+    <section id="sec--utils">
+        <div class="g--4-4 mtb--20">
+            <h2>Utils</h2>
+            <p>
+                Often use CSS rules get own classes for a Modular and quick developemnt process.
+            </p>
+            <h3 class="mtb--10">Naming</h3>
+            <p>
+                m = Margin <br>
+                p = Padding <br>
+                t  = Top <br>
+                b = Bottom <br>
+                t = Right <br>
+                l = Left<br>
+                <br>
+                <h4>Example</h4>
+                mtb--40  <br>
+                margin-top: 40px;<br>
+                margin-bottom: 40px;<br>
+            </p>
+
+            <h3 class="mtb--10">Spacer</h3>
+            <p>
+                pt--10
+            </p>
+
+            <h3 class="mtb--10">Text Align</h3>
+            <p class="ta--left">
+                ta-left
+            </p>
+            <p class="ta--center">
+                ta-center
+            </p>
+            <p class="ta--right">
+                ta-right
+            </p>
+
+        </div>
+    </section>
+
+
+    <section id="sec--ui">
+        <div class="g--4-4 mtb--20">
+            <h2>UI</h2>
+            <p>
+                Basic resets and styles for UI Elements like Button and Input fields
+            </p>
+            <h3 class="mtb--10">Button</h3>
+
+            <button>Button</button>
+            <a href="#" class="btn">Link Button</a>
+            </p>
+        </div>
+        <div class="g--1-4">
+            <h3 class="mt--20 mb--20 w--100">Inputs</h3>
+
+            <label> Text Input</label>
+            <input type="text" placeholder="Text Input" class="w--100">
+            <input type="password" placeholder="password" class="w--100" value="password">
+
+            <textarea class="w--100">Textarea </textarea>
+
+            <button class="w--100">Submit</button>
+        </div>
+    </section>
+
 </div>
+
+<footer class="w--100 bg--cl-dark p--40 mt--50">
+    <div class="wrapper ta--center">
+        <span class="fc--cl-bright">bricss - 2017</span>
+    </div>
+</footer>
+
 
 
 </body>

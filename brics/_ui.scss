@@ -1,0 +1,58 @@
+/*
+  _bricss SASS Framework
+  _UI
+  User Interface elements like Button Input etc.
+ */
+
+
+button, .btn {
+  border: 1px solid transparent;
+  background-color: $cl-second;
+  display: inline;
+  max-width: 100%;
+  margin: 0;
+  padding: .5em;
+  border-radius: 4px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 1em;
+  line-height: normal;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+  overflow: hidden;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lighten($cl-second, 10%);
+}
+
+input, textarea {
+  display: block;
+  width: auto;
+  margin: 0;
+  padding: .5em;
+  border: 1px solid $cl-dark;
+  border-radius: 4px;
+  outline: 0;
+  background-color: #fff;
+  font-family: inherit;
+  font-size: 1em;
+  font-weight: 400;
+  resize: vertical;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-bottom: .5em;
+}
