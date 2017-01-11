@@ -14,13 +14,13 @@ $spacerSteps: 10; //Steps for Spacer
 
 
 //SET YOUR BASIC COLORS color Prefix ce-
-$cl-primary: 	#96281B;
 $cl-font: 		#333333; // Standart Font color set in _color.scss
+$cl-bright: 	#fdfdfd; //Also set als bright font color in _color.scss
+$cl-primary: 	#96281B;
 $cl-second:		#6C7A89;
 $cl-alert:		#C0392B;
-$cl-succes:		#2ECC71;
+$cl-success:	#2ECC71;
 $cl-warning:	#E9D460;
-$cl-bright: 	#fdfdfd; //Also set als bright font color in _color.scss
 
 //Add new colors in this list and the array bellow!
 
@@ -28,7 +28,7 @@ $colors: (
 				cl-primary: 	$cl-primary,
 				cl-second: 		$cl-second,
 				cl-alert: 		$cl-alert,
-				cl-succes: 		$cl-succes,
+				cl-succes: 		$cl-success,
 				cl-warning: 	$cl-warning,
 				cl-bright:		$cl-bright
 );
