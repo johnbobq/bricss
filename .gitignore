@@ -1,3 +1,7 @@
+#don't include gen. files
+css/bricss.css.map
+css/bricss.css
+
 # Created by .ignore support plugin (hsz.mobi)
 ### Sass template
 .sass-cache/
